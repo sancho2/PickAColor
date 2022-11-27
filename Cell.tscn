@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Cell.gd" type="Script" id=1]
+
+[node name="Cell" type="ColorRect"]
+margin_right = 32.0
+margin_bottom = 32.0
+script = ExtResource( 1 )
+
+[connection signal="gui_input" from="." to="." method="_on_Cell_gui_input"]
